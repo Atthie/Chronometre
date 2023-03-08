@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;box-sizing: border;}
+.App{display: flex;flex-direction: column;align-items: center;}
+.flex-col{display: flex;flex-direction: column;align-items: center;}
+.stylebtn{ border-radius: 50px; height: 70px;width: 70px;background-repeat: no-repeat;background-position: center;}
+.contenair{
+  
+   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+   0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+       width: 500px;height: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+h1{
+    font-size: 50px;
+}
+.start{background-image: url(/home/atthie/Documents/React Apprentissage/chronometre/public/bouton-jouer.png);border-radius: 50px; height: 70px;width: 70px;background-repeat: no-repeat;background-position: center;}
+.pause{border-radius: 50px; height: 70px;width: 70px;background-repeat: no-repeat; background-position: center;background-image: url(/home/atthie/Documents/React Apprentissage/chronometre/public/pause.png);}
+.restart{background-image: url(/home/atthie/Documents/React Apprentissage/chronometre/public/reload.png);}
+.bouton{margin-top: 80px; display: flex;flex-direction: row; gap: 20px;}
